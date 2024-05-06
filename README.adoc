@@ -1,0 +1,23 @@
+= Ethereum Smart Contract Example (with Hardhat)
+FTSRG
+v0.1.0, 2024-05-06
+:icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+
+Try running some of the following tasks:
+
+[,console]
+---
+$ pnpm exec hardhat help
+$ pnpm exec hardhat test
+$ REPORT_GAS=true pnpm exec hardhat test
+$ pnpm exec hardhat node
+$ pnpm exec hardhat ignition deploy ./ignition/modules/Lock.ts
+---
