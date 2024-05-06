@@ -13,7 +13,7 @@ endif::[]
 
 Try running some of the following tasks:
 
-[,console]
+[source,console]
 ---
 $ pnpm exec hardhat help
 $ pnpm exec hardhat test
